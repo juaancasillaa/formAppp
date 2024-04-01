@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
     <title>Document</title>
 </head>
 <body>
-    <div id=""conteiner>
-        <header id="header"></header>
-
-        <section id="content">
+    <div id="container">
+        <header id="header">
+            <img src="images/elAmigoLogo.png" alt="El Amigo Logo">
+        </header>
+        
+        <section id="content" class="content-block">
             <h1>The Best Craft Pizza in Charlotte</h1>
-            <p>Bienvenidos amigos! We are a fictional pizza pleca. We have the best pizza in Charlotte</p>
+            <p>Beinvenido amigos! We are a fictional pizza place. We have the best pizza in Charlotte !</p>
         </section>
 
-        <section id="reserve">
-            <h2>Make a reservation</h2>
+        <section id="reserve" class="content-block">
+            <h2>Make a Reservation</h2>
             <p>Save Your spot now</p>
 
             <form>
-
                 <label for="your_name">Your Name</label>
-                <input type="text" id="your_name">
+                <input type="text" id="your_name" placeholder="Jane Miller">
 
-                <label for="your_email">Your Email</label>
-                <input type="email" id="your_email" placeholder="your@email.com">
+                <label for="your_email>">Your Email</label>
+                <input type="text" id="your_email" placeholder="your@email.com"/>
 
-                <input type="submit" value="reserve">
-
+                <input type="submit" value="reserve">        
             </form>
         </section>
-        
-        <footer id="footer">
+
+        <footer id="footer" class="content-block">
+            <p>&copy; 2024 El Amigo</p>
         </footer>
     </div>
 </body>
