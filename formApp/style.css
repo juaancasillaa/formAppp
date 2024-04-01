@@ -1,0 +1,16 @@
+/* CSS Rset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black url('images"/background_720.jpg') top center no-repeat;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
